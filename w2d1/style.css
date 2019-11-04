@@ -1,0 +1,11 @@
+
+.container {
+	display: grid;
+}
+
+button {
+	border: black solid 1px;
+	/*padding: 4;*/
+	width: 50px;
+	height: 50px;
+}

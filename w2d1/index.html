@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<table>
+	<tr colspan="4" border = "2px" border-color="black">
+		<td colspan="4" id="visor">
+			
+		</td>
+	</tr>
+	<tr><td>
+		<button type="button" id="btn7" onclick="javascript:capture('7');"> 7 </button>
+		<button type="button" id="btn8" onclick="javascript:capture('8');"> 8 </button>
+		<button type="button" id="btn9" onclick="javascript:capture('9');"> 9 </button>
+		<button type="button" id="btn_div" onclick="javascript:capture('/');"> / </button>
+		<button type="button" id="btn_bk" onclick="javascript:capture_bk('bk');"> Back </button>
+	</td></tr>
+	<tr><td>
+		<button type="button" id="btn4" onclick="javascript:capture('4');"> 4 </button>
+		<button type="button" id="btn5" onclick="javascript:capture('5');"> 5 </button>
+		<button type="button" id="btn6" onclick="javascript:capture('6');"> 6 </button>
+		<button type="button" id="btn_mult" onclick="javascript:capture('*');"> * </button>
+		<button type="button" id="btn_ce" onclick="javascript:capture_ce('ce');"> CE </button>
+	</td></tr>
+	<tr><td>
+		<button type="button" id="btn1" onclick="javascript:capture('1');"> 1 </button>
+		<button type="button" id="btn2" onclick="javascript:capture('2');"> 2 </button>
+		<button type="button" id="btn3" onclick="javascript:capture('3');"> 3 </button>
+		<button type="button" id="btn_subt" onclick="javascript:capture('-');"> - </button>
+		<button type="button" id="btn(" onclick="javascript:capture('(');"> ( </button>
+	</td></tr>
+	<tr><td>
+		<button type="button" id="btn_dec" onclick="javascript:capture('.');"> . </button>
+		<button type="button" id="btn0" onclick="javascript:capture('0');"> 0 </button>
+		<button type="button" id="btn_equ" onclick="javascript:capture_eq('=');"> = </button>
+		<button type="button" id="btn_add" onclick="javascript:capture('+');"> + </button>
+		<button type="button" id="btn)" onclick="javascript:capture(')');"> ) </button>
+	</td></tr>
+</table>
+
+		<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
