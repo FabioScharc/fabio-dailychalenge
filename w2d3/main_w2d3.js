@@ -11,6 +11,6 @@ for (i=0; i<length; i++) {
 			arr[n] = arr[n+1];
 			arr[n+1] = temp;
 		}		
-	}
+	}	
 }
 console.log(arr);
